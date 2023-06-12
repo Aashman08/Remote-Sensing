@@ -1,3 +1,4 @@
-# Stats-21
+# Remote Sensing
+
 
 Final project code for remote sesning 
