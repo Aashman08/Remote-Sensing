@@ -9,17 +9,19 @@ The primary objective of this project was to develop a method for identifying an
 ### Methodology:
 
 Data Collection:
-Captured images using a drone based system built from scratch equiped with infra-red and a normal RGB camera
+- Captured images using a drone based system built from scratch equiped with infra-red and a normal RGB camera
 
-Preprocessing: The acquired imagery undergoes preprocessing steps, extarcting only relevant band data. More advanced system can be put to use such as radiometric calibration, atmospheric correction, and geometric alignment, to remove noise and improve data quality.
+Preprocessing: 
+- The acquired imagery undergoes preprocessing steps, extarcting only relevant band data. More advanced system can be put to use such as radiometric calibration, atmospheric correction, and geometric alignment, to remove noise and improve data quality.
 
-NDVI Calculation: The NDVI is computed by analyzing the Near-Infrared (NIR) and Red bands of the acquired imagery. The formula for NDVI is (NIR - Red) / (NIR + Red), where NIR represents the Near-Infrared band and Red represents the Red band.
+NDVI Calculation: 
+- The NDVI is computed by analyzing the Near-Infrared (NIR) and Red bands of the acquired imagery. The formula for NDVI is (NIR - Red) / (NIR + Red), where NIR represents the Near-Infrared band and Red represents the Red band.
 
 Visualization:
-Created a false color image to show differnece and quantity of vegetation in a given area. 
+- Created a false color image to show differnece and quantity of vegetation in a given area. 
 
 Findings and Conclusion:
-Through the implementation of the proposed methodology, this project successfully differentiates healthy and unhealthy vegetation using NDVI. The calculated NDVI values serve as indicators of vegetation health, where higher values typically correspond to healthier vegetation and lower values represent unhealthy or stressed vegetation.
+- Through the implementation of the proposed methodology, this project successfully differentiates healthy and unhealthy vegetation using NDVI. The calculated NDVI values serve as indicators of vegetation health, where higher values typically correspond to healthier vegetation and lower values represent unhealthy or stressed vegetation.
 
 By visualizing the classified areas, patterns of unhealthy vegetation, such as drought-affected regions or areas affected by pests or diseases, can be identified. This information is valuable for land management, precision agriculture, and environmental monitoring.
 
